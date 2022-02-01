@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.container{
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.text{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(224, 174, 48);
+}

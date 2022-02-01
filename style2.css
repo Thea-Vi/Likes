@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: "comic neue", sans-serif
+    
+}
+
+section{
+    width: 750px;
+    height: auto;
+
+
+}
+
+header h1{
+    background-color: black;
+    height: 50px;
+    color: white; 
+    padding: 5px 0px 0px 15px;
+    margin-top: 0;
+
+    
+}
+
+.feed-box{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: larger;
+}
+
+a{
+    font-weight: 700;
+    color: rgb(69, 69, 245);
+}
+
+
+
+.user-info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+.user-info img{
+    width: 200px;
+    height: 200px;
+}
+.feed-body{
+    display: flex;
+    
+}
+
+.feed-container{
+    flex: 2;
+
+}
+
+.friend{
+    border: 2px solid black;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    
+   
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    
+  
+}
+
+.info h3{
+ 
+}
+
+.info h4{
+    padding-left: 200px;
+}
+
+
+button{
+    width: 60px;
+    height: 30px;
+    box-shadow: 4px 4px 4px black;
+    background-color: goldenrod;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.post{
+    font-weight: 600;
+}
